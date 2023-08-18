@@ -4,6 +4,8 @@ import AutoSlider from './components/Carousel/AutoSlider';
 import Cards from './components/Card/Card';
 import Quiz from '../src/components/Quiz/quiz.jsx'
 import Modal from './components/Modal/Modal';
+import Footer from './components/Footer/footer'
+import Loader from './components/Loader/loader'
 const App = () => {
   return (
 
@@ -14,6 +16,8 @@ const App = () => {
             <Route path="/quiz" element={<Quiz />}></Route>
             <Route path="/product" element={<Modal/>}></Route>
           </Routes>
+          <Loader/>
+          <Footer/>
         </BrowserRouter>
   );
 }
