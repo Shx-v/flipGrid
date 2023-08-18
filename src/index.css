@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+#radio1.checked ~ .first{
+    margin-left: 0;   
+}
+#radio2.checked ~ .first{
+    margin-left: -25%;   
+}
+#radio3.checked ~ .first{
+    margin-left: -50%;   
+} */
